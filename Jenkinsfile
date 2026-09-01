@@ -1,6 +1,6 @@
 @Library('svelte-vps-pipeline@main') _
 
-svelteDockerDeploy(
+svelteVPSDeploy(
     appName: 'monitoring-dapur-mbg',
     port: '8001'
 )
